@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS only --> 
+  <link 
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+  rel="stylesheet" 
+  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous"> 
+  <link 
+  rel="stylesheet" 
+  href="/styles.css">
+
+  <title>Guess Number</title>
+</head>
+
+<body>
+  <header>
+    <a href="#"><h1>Guess Number</h1></a>
+  </header>
+  <main class="container-fluid">
+  
+  <form>
+    <label 
+    for="kick">
+      Digite um Número (0 a 10):
+    </label>
+    <input 
+    type="number" 
+    max="10"
+    placeholder="0"
+    required
+    id="kick"
+    >
+    <button 
+    type="submit">
+    Jogar !
+    </button>
+    <section 
+    class="box-results"
+    id="results">
+    <h2 id="status">
+    Advinhe o Número Sorteado
+    </h2>
+      <span 
+      id="attempt">
+      Tentivas: 0
+      </span>
+      <button
+      id="btnRestart" 
+      type="submit">
+      Jogar Denovo!
+      </button>
+    </section>
+  </form>
+</main>
+
+<!-- JavaScript Bundle with Popper --> 
+<script 
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+crossorigin="anonymous">
+  
+</script>
+</body>
+</html>
